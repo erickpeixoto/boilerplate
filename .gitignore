@@ -39,9 +39,3 @@ next-env.d.ts
 /blob-report/
 /playwright/.cache/
 
-# playwright
-/playwright/videos/
-/playwright/screenshots/
-/playwright/traces/
-/playwright/report/
-/tests-examples/
