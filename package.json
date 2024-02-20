@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "prepare": "husky"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.0.2",
@@ -16,6 +17,7 @@
     "clsx": "^2.1.0",
     "lucide-react": "^0.335.0",
     "next": "14.1.0",
+    "prettier": "^3.2.5",
     "react": "^18",
     "react-dom": "^18",
     "tailwind-merge": "^2.2.1",
@@ -38,9 +40,17 @@
     "eslint": "^8",
     "eslint-config-next": "14.1.0",
     "eslint-plugin-storybook": "^0.8.0",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2",
     "postcss": "^8",
     "storybook": "^7.6.16",
     "tailwindcss": "^3.3.0",
     "typescript": "^5"
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx}": [
+      "prettier --write",
+      "eslint --fix"
+    ]
   }
 }
