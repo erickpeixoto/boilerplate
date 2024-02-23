@@ -1,8 +1,8 @@
-# boilerplate Boilerplate
+# Boilerplate Boilerplate
 
 ## Introduction
 
-This boilerplate boilerplate is designed to kickstart development of personal boilerplate websites with a modern, full-stack approach. Leveraging the latest in web development technologies, this boilerplate simplifies the setup process and provides a scalable, efficient foundation for building and deploying a professional boilerplate.
+This boilerplate is designed to kickstart the development of personal boilerplate websites with a modern, full-stack approach. Leveraging the latest in web development technologies, this boilerplate simplifies the setup process and provides a scalable, efficient foundation for building and deploying a professional boilerplate.
 
 ## Key Features
 
@@ -14,6 +14,12 @@ This boilerplate boilerplate is designed to kickstart development of personal bo
 - **Playwright**: Pre-configured with Playwright for automated, end-to-end testing across modern browsers.
 - **Shadcn-UI**: Incorporates Shadcn-UI components for a sleek, modern UI out of the box.
 - **Storybook**: Set up with Storybook for building and testing UI components in isolation.
+
+## Home Page Screenshot
+
+![Boilerplate Home Page](/public/home.png)
+
+Visit the live version running on: [Vercel](https://portfolio-lpfhhsk8o-erickpeixoto.vercel.app)
 
 ## Getting Started
 
