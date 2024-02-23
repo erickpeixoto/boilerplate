@@ -1,8 +1,8 @@
-# Portfolio Boilerplate
+# boilerplate Boilerplate
 
 ## Introduction
 
-This portfolio boilerplate is designed to kickstart development of personal portfolio websites with a modern, full-stack approach. Leveraging the latest in web development technologies, this boilerplate simplifies the setup process and provides a scalable, efficient foundation for building and deploying a professional portfolio.
+This boilerplate boilerplate is designed to kickstart development of personal boilerplate websites with a modern, full-stack approach. Leveraging the latest in web development technologies, this boilerplate simplifies the setup process and provides a scalable, efficient foundation for building and deploying a professional boilerplate.
 
 ## Key Features
 

@@ -6,5 +6,5 @@ export default {
   dbCredentials: {
     connectionString: process.env.DATABASE_URL ?? "",
   },
-  tablesFilter: ["portfolio_*"],
+  tablesFilter: ["boilerplate_*"],
 } satisfies Config;
