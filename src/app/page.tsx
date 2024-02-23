@@ -4,7 +4,7 @@ import { api } from "@/trpc/server";
 
 export default async function Home() {
   const hi = await api.post.hello.query({
-    text: "from Erick&apos;s Boilerplate",
+    text: "from tRPC Erick's Boilerplate",
   });
 
   return (
