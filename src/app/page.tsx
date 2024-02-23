@@ -1,8 +1,11 @@
+import { unstable_noStore as noStore } from "next/cache";
+
 import { Button } from "@/app/components/ui/button";
 import { ThemeToggle } from "@/app/components/theme-toggle";
 import { api } from "@/trpc/server";
 
 export default async function Home() {
+  noStore();
   const hi = await api.post.hello.query({
     text: "from tRPC Erick's Boilerplate",
   });
